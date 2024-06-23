@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react'
+import { ReactNode } from 'react'
 
 const Link = ({ to, children }: { to: string, children: ReactNode }) => {
     return (
