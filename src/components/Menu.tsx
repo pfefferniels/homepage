@@ -16,7 +16,7 @@ export const Menu = () => {
     return (
         <Navbar title='Niels Pfeffer'>
             {pages.map(page => (
-                <NavItem key={`page_${page}`} to={`/${page}`}>
+                <NavItem key={`page_${page}`} to={`#/${page}`}>
                     {pathname.slice(1) === page
                         ? <b>{uppercase(page)}</b>
                         : uppercase(page)

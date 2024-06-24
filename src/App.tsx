@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from "./Home";
 import { Vita } from "./Vita";
 import { Media } from "./Media";
@@ -8,7 +8,7 @@ import { Body } from "./components/Body";
 
 export const App = () => {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Menu />
             <Body>
                 <Routes>
@@ -18,6 +18,6 @@ export const App = () => {
                     <Route path='/' element={<Home />} />
                 </Routes>
             </Body>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
