@@ -4,6 +4,13 @@ import { VideoBox } from "./components/VideoBox";
 export const Media = () => (
     <>
         <VideoBox
+            title={`J'avois crû qu'en vous aimant`}
+            link='https://www.youtube-nocookie.com/embed/b2XP8ch10rs?si=_bcuNsdbZ9fEMrTC'>
+            Anna Bachleitner <Divider /> mezzo-soprano<br />
+            Niels Pfeffer <Divider /> theorbo
+        </VideoBox>
+
+        <VideoBox
             title='À Florence'
             link='https://www.youtube-nocookie.com/embed/cpsBNwhWEzI?si=w1RZxGv4AfYEoHKP?controls=0'>
             Maya Webne-Behrmann <Divider /> violin<br />
@@ -38,12 +45,6 @@ export const Media = () => (
                 </a>
                 {' '}vom SWR2 aufgenommen.
             </p>
-        </VideoBox>
-
-        <VideoBox
-            title='Robert de Visée - La Conversation'
-            link='https://www.youtube-nocookie.com/embed/dydHLn0PSe4?si=N1jyoRVO4B9YB_Qf'>
-            Niels Pfeffer <Divider /> theorbo
         </VideoBox>
     </>
 )
