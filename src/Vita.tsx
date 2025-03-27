@@ -10,7 +10,7 @@ export const Vita = () => (
     }}>
         <p>
             Niels Pfeffer fühlt sich auf (fast) allem, was gezupft wird oder Tasten hat,
-            zu Hause – auf sämtlichen Lauten- und Gitarreninstrumente ebenso wie 
+            zu Hause – auf sämtlichen Lauten- und Gitarreninstrumenten ebenso wie 
             auf Cembalo und Orgel. 
         </p>
         <p>
@@ -19,7 +19,8 @@ export const Vita = () => (
             einen Lehrauftrag für Korrepetition auf diesen Instrumenten inne. Außerdem ist er als
             akademischer Mitarbeiter am Musikwissenschaftlichen Institut der Universität Tübingen
             tätig – dort verfolgt er ein eigenes Dissertationsprojekt zu Klavierrollenaufnahmen
-            des frühen 20. Jahrhunderts.
+            des frühen 20. Jahrhunderts. Ab Herbst 2025 wird er die Dozentur für Lauteninstrumente 
+            an der Zürcher Hochschule für Musik übernehmen. 
         </p>
         <p>
             Mit seinen Instrumenten spielt er u.{' '}a.
