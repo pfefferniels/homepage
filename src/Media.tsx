@@ -11,8 +11,8 @@ export const Media = () => (
         </VideoBox>
 
         <VideoBox
-            title='À Florence'
-            link='https://www.youtube-nocookie.com/embed/cpsBNwhWEzI?si=w1RZxGv4AfYEoHKP?controls=0'>
+            title='Aux oiseaux'
+            link='https://www.youtube-nocookie.com/embed/PAsIOHaSbNI?si=controls=0'>
             Maya Webne-Behrmann <Divider /> violin<br />
             Niels Pfeffer <Divider /> baroque lute
 
