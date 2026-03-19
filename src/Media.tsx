@@ -4,6 +4,19 @@ import { VideoBox } from "./components/VideoBox";
 export const Media = () => (
     <>
         <VideoBox
+            title='BWV 995 – Allemande &amp; Courante'
+            link='https://www.youtube-nocookie.com/embed/7IMgGknMbUI'>
+            Niels Pfeffer <Divider /> baroque lute
+
+            <p style={{
+                fontSize: '0.8em'
+            }}>
+                Aufgenommen am 7. März 2026 an der HMDK Stuttgart, ohne Schnitte.
+                13-chörige Barocklaute von Ivo Magherini (2006).
+            </p>
+        </VideoBox>
+
+        <VideoBox
             title={`J'avois crû qu'en vous aimant`}
             link='https://www.youtube-nocookie.com/embed/b2XP8ch10rs?si=_bcuNsdbZ9fEMrTC'>
             Anna Bachleitner <Divider /> mezzo-soprano<br />

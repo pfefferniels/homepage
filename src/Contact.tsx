@@ -42,6 +42,18 @@ export const Contact = () => {
                         @pfefferniels
                     </a>
                 </ContactInfo>
+                <tr><td colSpan={2} style={{ height: '3rem' }} /></tr>
+                <tr>
+                    <td />
+                    <td style={{ textAlign: 'left', lineHeight: '1.85rem' }}>
+                        Interested in studying lute at ZHdK?
+                        Feel free to contact me for a trial lesson.<br />
+                        More info <a
+                            style={{ color: 'inherit' }}
+                            href='https://www.zhdk.ch/studium/musik/ma-music-performance-laute-21365'>
+                            here</a>.
+                    </td>
+                </tr>
             </table>
         </div>
     )
