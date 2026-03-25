@@ -11,7 +11,7 @@ const ImageWrapper = styled.div`
     }
 `
 
-export const Carousel = ({ images, seconds }: { images: string[], seconds: number }) => {
+export const Carousel = ({ images, seconds, alt = 'Niels Pfeffer' }: { images: string[], seconds: number, alt?: string }) => {
     const [index, setIndex] = useState(0)
 
     useEffect(() => {
@@ -28,6 +28,7 @@ export const Carousel = ({ images, seconds }: { images: string[], seconds: numbe
         <ImageWrapper>
             <img
                 src={images[index]}
+                alt={alt}
                 style={{
                     width: '100%',
                     border: '1px solid black'

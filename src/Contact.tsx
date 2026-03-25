@@ -26,6 +26,7 @@ export const Contact = () => {
             marginLeft: 'auto',
             marginRight: 'auto'
         }}>
+            <h1 className="sr-only">Contact</h1>
             <table style={{
                 marginLeft: 'auto',
                 marginRight: 'auto',
@@ -48,10 +49,10 @@ export const Contact = () => {
                     <td style={{ textAlign: 'left', lineHeight: '1.85rem' }}>
                         Interested in studying lute at ZHdK?
                         Feel free to contact me for a trial lesson.<br />
-                        More info <a
+                        <a
                             style={{ color: 'inherit' }}
                             href='https://www.zhdk.ch/studium/musik/ma-music-performance-laute-21365'>
-                            here</a>.
+                            More info on the ZHdK lute programme</a>.
                     </td>
                 </tr>
             </table>

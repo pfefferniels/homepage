@@ -3,6 +3,7 @@ import { VideoBox } from "./components/VideoBox";
 
 export const Media = () => (
     <>
+        <h1 className="sr-only">Media</h1>
         <VideoBox
             title='BWV 995 – Allemande &amp; Courante'
             link='https://www.youtube-nocookie.com/embed/7IMgGknMbUI'>

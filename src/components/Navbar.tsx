@@ -1,21 +1,22 @@
 import { ReactNode } from 'react'
+import { Link } from 'react-router-dom'
 
-const Link = ({ to, children }: { to: string, children: ReactNode }) => {
+const NavLink = ({ to, children }: { to: string, children: ReactNode }) => {
     return (
-        <a
-            href={to}
+        <Link
+            to={to}
             style={{
                 textDecoration: 'none',
                 color: 'inherit'
             }}>
             {children}
-        </a>
+        </Link>
     )
 }
 
 const Title = ({ children }: { children: ReactNode }) => {
     return (
-        <Link to='/'>
+        <NavLink to='/'>
             <div style={{
                 fontSize: '1.1em',
                 fontWeight: 'bold'
@@ -23,19 +24,19 @@ const Title = ({ children }: { children: ReactNode }) => {
 
                 {children}
             </div>
-        </Link>
+        </NavLink>
     )
 }
 
 export const NavItem = ({ children, to }: { to: string, children: ReactNode }) => {
     return (
-        <Link to={to}>
+        <NavLink to={to}>
             <div style={{
                 margin: '0.1em 1em'
             }}>
                 {children}
             </div>
-        </Link>
+        </NavLink>
     )
 }
 
@@ -80,5 +81,3 @@ export const Navbar = ({ title, children }: { title: ReactNode, children: ReactN
         </header>
     )
 }
-
-

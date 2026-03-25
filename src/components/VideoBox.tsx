@@ -41,9 +41,10 @@ const InfoContainer = styled.div`
     }
 `;
 
-const Title = styled.h4`
+const Title = styled.h2`
     margin-top: 0;
     padding-top: 0;
+    font-size: 1em;
 `;
 
 const AdditionalInfo = styled.div`
@@ -57,7 +58,9 @@ export const VideoBox = ({ link, title, children }: { link: string, title: strin
             <VideoWrapper>
                 <iframe
                     src={link}
+                    title={title}
                     allowFullScreen
+                    loading="lazy"
                 />
             </VideoWrapper>
             <InfoContainer>

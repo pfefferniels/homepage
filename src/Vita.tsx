@@ -8,6 +8,7 @@ export const Vita = () => (
         marginRight: 'auto',
         lineHeight: '1.85rem'
     }}>
+        <h1 className="sr-only">Vita</h1>
         <p>
             Niels Pfeffer fühlt sich auf (fast) allem, was gezupft wird oder Tasten hat,
             zu Hause – auf sämtlichen Lauten- und Gitarreninstrumenten ebenso wie

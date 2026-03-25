@@ -12,12 +12,14 @@ function Home() {
         <Carousel images={[image1]} seconds={8} />
       </div>
 
-      <div style={{
+      <h1 style={{
         marginTop: '2rem',
-        fontWeight: 'bold'
+        marginBottom: 0,
+        fontWeight: 'bold',
+        fontSize: 'inherit'
       }}>
         Lute <Divider /> Harpsichord <Divider /> Basso Continuo
-      </div>
+      </h1>
     </>
   )
 }
