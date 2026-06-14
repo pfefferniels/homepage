@@ -8,7 +8,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
-    "build": "tsc -b && vite build && cp dist/index.html dist/404.html && for route in vita media contact; do mkdir -p dist/$route && cp dist/index.html dist/$route/index.html; done",
+    "build": "tsc -b && vite build && node scripts/postbuild.mjs",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
